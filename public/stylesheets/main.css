@@ -1,0 +1,96 @@
+.jumbotron {
+  background: #339FFF;
+  color: black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 110px; }
+.jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+.jumbotron .btn-primary:hover {
+      background: #7646c1; }
+.jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+.navbar + .jumbotron {
+    margin-top: -20px; }
+.jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
+.jumbotron .lang-logo img {
+      max-width: 100%; }
+.scrollbox {
+  background: #E0E0E0;
+  color: black;
+  width: 400px;
+  height: 400px;
+  overflow: scroll;
+}
+.big_button {
+  background: #E0E0E0;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.right {
+  position: absolute;
+  right: 0px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 60px;
+  padding: 10px 20px 10px 20px;
+  border: solid #005285 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+a {
+  font-size: 30px;
+}
+
+.fl{
+  float: left;
+  margin: 0;
+}
+
+.actve.chooser{
+  background: #70d4ff;
+}
+
+.disabled.chooser{
+  .background: #d68484;
+}
